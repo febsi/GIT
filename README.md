@@ -51,10 +51,11 @@ Dalam pembuatan git ada tiga bagian yang harus dilewati.
     - Repository adalah tempat penyimpanan akhir dari file atau proyrk yang sduah dikelolah oleh Git. Repository bisa berupa Local Repository(Di Komputer kita) atau Remote Repository(Github)
  
 langkah Langkah Git.
+
     - inisialisasi Repositori baru:
-        ```bash
-         git init 
-         ```
+    ```bash
+     git init 
+     ```
 
     - menambahkan file ke Staged Area.
         ```bash
