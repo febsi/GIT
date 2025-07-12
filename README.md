@@ -1,27 +1,51 @@
-GIT
+### GIT
 
 Git adalah sistem kontrol versi terdistribusi yang memungkinkan Anda untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak. Ini memungkinkan beberapa pengembang untuk bekerja pada proyek yang sama tanpa mengganggu satu sama lain. 
 
-Pre-Requisites
+### Pre-Requisites
+1. Dijalankan di github 22.04.5.
+2. Instal Git version (2.34.1).
+3. memiliki akun github.
 
+### Instalasi GIT
 
+1. untuk isntalasi git pada ubuntu 22.04.5 bisa menggunakan perintah.
+    ```bash
+     sudo apt-get Update
+     sudo apt-get install git
+     ```
 
-### Di Windows
+2. Setalah melakukan intsall, coba cek versi git dengan perintah berikut.
+    ```bash
+     git --version
+     ```
+    ![Screenshot Terminal](gambar/gambar1.png)
 
-1. Unduh installer Git dari [situs resmi Git](https://git-scm.com/download/win).
-2. Jalankan installer dan ikuti petunjuk di layar.
-3. Setelah instalasi selesai, buka Command Prompt atau Git Bash untuk mulai menggunakan Git.
+3. kemudia kita tambah identitas username dan email yang akan dikenali oleh git.
 
-### Di Linux
+    username 
+    ```bash
+     git config --global user.name "nama anda" 
+     ```
+     email
+     ```bash
+     git config --global user.email "email anda" 
+     ```
 
-1. Buka terminal.
-2. Jalankan perintah berikut sesuai dengan distribusi Linux Anda:
+4. untuk melihat penambahan identitas berhasil dapat kita lihat dengan perintah.
+    
+    ```bash
+     git config --global --list --show-origin 
+     ```
 
-   - Untuk Ubuntu/Debian:
+### Perintah dasar Git
+
+berikut adalah beberapa printah dasar Git. 
+
+   - inisialisasi Repositori baru:
 
      ```bash
-     sudo apt-get update
-     sudo apt-get install git
+     git init 
      ```
 
    - Untuk Fedora:
