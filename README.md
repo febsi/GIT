@@ -35,8 +35,9 @@ Git adalah sistem kontrol versi terdistribusi yang memungkinkan Anda untuk melac
 4. untuk melihat penambahan identitas berhasil dapat kita lihat dengan perintah.
     
     ```bash
-     git config --global --list --show-origin 
+     git config --list --show-origin 
      ```
+    ![Screenshot Terminal2](Gambar/gambar2.png)
 
 ### Perintah dasar Git
 
