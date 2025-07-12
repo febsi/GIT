@@ -52,24 +52,24 @@ Dalam pembuatan git ada tiga bagian yang harus dilewati.
  
 langkah Langkah Git.
     - inisialisasi Repositori baru:
-         ```bash
+        ```bash
          git init 
          ```
 
     - menambahkan file ke Staged Area.
-         ```bash
+        ```bash
          git add <nama file> 
          ```
 ![Screenshot Terminal2](Gambar/gambar3.png)
         
     - melakukan commit atau memasukan ke dalam repository local kita.
-         ```bash
+        ```bash
          git commit -m "Pesan commit"
          ```
          ![Screenshot Terminal3](Gambar/gambar4.png)
         
     - melihat history commit yang sudah dilakukan.
-         ```bash
+        ```bash
          git init 
          ```
 ![Screenshot Terminal3](Gambar/gambar5.png)
