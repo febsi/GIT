@@ -19,7 +19,7 @@ Git adalah sistem kontrol versi terdistribusi yang memungkinkan Anda untuk melac
     ```bash
      git --version
      ```
-    ![Screenshot Terminal](gambar/gambar1.png)
+    ![Screenshot Terminal](Gambar/gambar1.png)
 
 3. kemudia kita tambah identitas username dan email yang akan dikenali oleh git.
 
