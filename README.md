@@ -31,7 +31,7 @@ Version control merupakan sebuah sistem yang digunakan untuk mencatat setiap per
     ```bash
      git config --global user.name "nama anda" 
      ```
-     -email
+    - email
      ```bash
      git config --global user.email "email anda" 
      ```
@@ -46,34 +46,35 @@ Version control merupakan sebuah sistem yang digunakan untuk mencatat setiap per
 # Perintah dasar Git
 
 Dalam pembuatan git ada tiga bagian yang harus dilewati.
-    - Working Directory adalah tempat kita bekerja langsung pada file dan perubahan di bagian ini belum tercatat atau dilacak oleh Git.
-    - Staged Area ini adalah tempat dimana kita menyimpan file yang ingin di masukan kedalam repository.
-    - Repository adalah tempat penyimpanan akhir dari file atau proyrk yang sduah dikelolah oleh Git. Repository bisa berupa Local Repository(Di Komputer kita) atau Remote Repository(Github)
+    
+- Working Directory adalah tempat kita bekerja langsung pada file dan perubahan di bagian ini belum tercatat atau dilacak oleh Git.
+- Staged Area ini adalah tempat dimana kita menyimpan file yang ingin di masukan kedalam repository.
+- Repository adalah tempat penyimpanan akhir dari file atau proyrk yang sduah dikelolah oleh Git. Repository bisa berupa Local Repository(Di Komputer kita) atau Remote Repository(Github)
  
 langkah Langkah Git.
 
-    - inisialisasi Repositori baru:
+- inisialisasi Repositori baru:
     ```bash
      git init 
      ```
 
-    - menambahkan file ke Staged Area.
-        ```bash
-         git add <nama file> 
-         ```
-![Screenshot Terminal2](Gambar/gambar3.png)
+- menambahkan file ke Staged Area.
+    ```bash
+     git add <nama file> 
+     ```
+    ![Screenshot Terminal2](Gambar/gambar3.png)
         
-    - melakukan commit atau memasukan ke dalam repository local kita.
-        ```bash
-         git commit -m "Pesan commit"
-         ```
-         ![Screenshot Terminal3](Gambar/gambar4.png)
+- melakukan commit atau memasukan ke dalam repository local kita.
+    ```bash
+     git commit -m "Pesan commit"
+     ```
+    ![Screenshot Terminal3](Gambar/gambar4.png)
         
-    - melihat history commit yang sudah dilakukan.
-        ```bash
-         git init 
-         ```
-![Screenshot Terminal3](Gambar/gambar5.png)
+- melihat history commit yang sudah dilakukan.
+    ```bash
+     git init 
+     ```
+    ![Screenshot Terminal3](Gambar/gambar5.png)
 
 
    - Untuk Fedora:
