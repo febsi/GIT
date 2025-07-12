@@ -51,7 +51,7 @@ Dalam pembuatan git ada tiga bagian yang harus dilewati.
 - Staged Area ini adalah tempat dimana kita menyimpan file yang ingin di masukan kedalam repository.
 - Repository adalah tempat penyimpanan akhir dari file atau proyrk yang sduah dikelolah oleh Git. Repository bisa berupa Local Repository(Di Komputer kita) atau Remote Repository(Github)
  
-langkah Langkah Git.
+langkah-langkah Git.
 
 - inisialisasi Repositori baru:
     ```bash
@@ -77,24 +77,38 @@ langkah Langkah Git.
     ![Screenshot Terminal3](Gambar/gambar5.png)
 
 
-   - Untuk Fedora:
+# Pembuatan Branch
 
-     ```bash
-     sudo dnf install git
-     ``
-   - Untuk Arch Linux:
+Branch berguna untuk mengindari konflik ketika melakukan kolaborasi pada saat mengerjakan suatu proyek secara berkelompuk.
 
-     ```bash
-     sudo pacman -S git
+untuk membuata branch dapat kita lakukan dengan command berikut.
+    ```bash
+        git branch <namabranch>
+    ```
+
+untuk berganti branch kita dapat menggunakn command.
+    ```bash
+    git checkout <namabranch>
      ```
+    ![Screenshot Terminal3](Gambar/gambar6.png)
 
-3. Setelah instalasi selesai, Anda dapat mulai menggunakan Git melalui terminal.
+check directory pada branch home dan master untuk melihat perbedaan directory.
 
-## Konfigurasi Awal
+- branch Master
+![Screenshot Terminal3](Gambar/gambar7.png)
 
-Setelah menginstal Git, Anda perlu mengkonfigurasi informasi pengguna Anda. Jalankan perintah berikut di terminal atau Command Prompt:
+- branch Home
+![Screenshot Terminal3](Gambar/gambar8.png)
 
-```bash
-git config --global user.name "Nama Anda"
-git config --global user.email "email@anda.com"
-Informasi tentang lisensi proyek ini.
+lalu untuk menyatukan perubahan dapat dilakukan perintah.
+    ```bash
+     git checkout master
+     git merge <namabranch>
+    ```
+![Screenshot Terminal3](Gambar/gambar9.png)
+
+
+
+# Push Respository Local ke Github
+ 
+
