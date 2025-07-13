@@ -127,6 +127,19 @@ Dalam pengerjaan proyrk tidak mungkin hanya menyimpan proyek dalam repository lo
 - cara menghubungkan Repository lokal dengan repository remote, terlebih dahulu harus ditambahkan remotenya dengan bantuan perintah.
 
     ```bash
-     git remote set-url origin http://<token>@github.com/<user>/<repo>
+     git remote set-url origin https://<token>@github.com/<user>/<repo>
     ```
- 
+
+![Screenshot Terminal3](Gambar/gambar12.png)
+
+- setelah berhasil di remote kita push file yang ada di directory kita dengan perintah.
+
+    ```bash
+     git push -u origin main
+    ```
+
+![Screenshot Terminal3](Gambar/gambar13.png)
+
+dapat kita lihat repository yang sudah di push di akun github kita.
+
+![Screenshot Termina14](Gambar/gambar14.png)
