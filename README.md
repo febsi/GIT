@@ -124,6 +124,9 @@ Dalam pengerjaan proyrk tidak mungkin hanya menyimpan proyek dalam repository lo
 
 ![Screenshot Terminal3](Gambar/gambar11.png)
 
--
+- cara menghubungkan Repository lokal dengan repository remote, terlebih dahulu harus ditambahkan remotenya dengan bantuan perintah.
 
+    ```bash
+     git remote set-url origin http://<token>@github.com/<user>/<repo>
+    ```
  
