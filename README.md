@@ -95,9 +95,12 @@ untuk berganti branch kita dapat menggunakn command.
 check directory pada branch home dan master untuk melihat perbedaan directory.
 
 - branch Master
+
 ![Screenshot Terminal3](Gambar/gambar7.png)
 
 - branch Home
+
+
 ![Screenshot Terminal3](Gambar/gambar8.png)
 
 lalu untuk menyatukan perubahan dapat dilakukan perintah.
@@ -109,6 +112,18 @@ lalu untuk menyatukan perubahan dapat dilakukan perintah.
 
 
 
-# Push Respository Local ke Github
+# Push Respository Local ke Repository Github
  
+Dalam pengerjaan proyrk tidak mungkin hanya menyimpan proyek dalam repository lokal saja.Kemudian untuk mengabungkannya digunakan repository inti atau remote yang akan menyimpan semua source code atau proyek yang telah dikerjakan setiap orang. Kemudian untuk mengabungkannya digunakan repository inti atau remote yang akan menyimpan semua source code atau proyek yang telah dikerjakan setiap orang.
 
+- Membuat Repository baru Di Github.
+
+![Screenshot Terminal3](Gambar/gambar10.png)
+
+- Selanjutnya keti command yang ada di gambar agar kita dapat memasukan file ke dalam repository di github.
+
+![Screenshot Terminal3](Gambar/gambar11.png)
+
+-
+
+ 
