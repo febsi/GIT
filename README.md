@@ -143,3 +143,33 @@ Dalam pengerjaan proyrk tidak mungkin hanya menyimpan proyek dalam repository lo
 dapat kita lihat repository yang sudah di push di akun github kita.
 
 ![Screenshot Termina14](Gambar/gambar14.png)
+
+cara mengunakan perintah pull untuk mengambil data yang sudah di tambahkan dalam github Repository. kita dapat mengikuti perintah mengikuti langkah berikut.
+
+- create file baru pada Github.
+
+![Screenshot Termina14](Gambar/gambar15.png)
+
+- kita isi file dan buat nama file baru.
+
+![Screenshot Termina14](Gambar/gambar16.png)
+
+- setalah itu commit.
+
+![Screenshot Termina14](Gambar/gambar17.png)
+
+- kita lihat repository Github kita.
+
+![Screenshot Termina14](Gambar/gambar18.png)
+
+- Dapat kita lihat ada tambhan file baru yang di tambahakan. Untuk menabahkanya lokal repository kita kita gunakan perintah berikut.
+
+    ```bash 
+     git pull origin <namabranch>
+    ```
+![Screenshot Termina14](Gambar/gambar19.png)
+
+kita lihat repository local kita.
+
+![Screenshot Termina14](Gambar/gambar20.png)
+
